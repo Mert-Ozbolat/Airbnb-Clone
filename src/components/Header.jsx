@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { CgProfile } from 'react-icons/cg'
 import { FiMenu } from 'react-icons/fi'
 import { GrLanguage } from 'react-icons/gr'
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import { SlEarphones } from 'react-icons/sl';
+import { BiSearch } from 'react-icons/bi';
 
 const Header = () => {
+
+    const [startDate, setStartDate] = useState(new Date());
+
+
     return (
         <div className="container d-flex flex-column">
             <div className="d-flex justify-content-between align-items-center">
@@ -38,22 +46,36 @@ const Header = () => {
             <div className="container mt-3">
                 <div className="d-flex justify-content-center">
                     <div className="d-flex align-items-center justify-content-between flex-wrap w-75 p-2 shadow-lg bg-body-tertiary rounded-pill">
+
+
                         <div className="d-flex flex-column border-2 border-end px-2 py-1 hover-effect flex-fill">
                             <span className="small">Yer</span>
                             <input type="search" placeholder="Gidilecek Yerleri Arayın" className="border-0 bg-transparent form-control-sm" />
                         </div>
+
+
                         <div className="d-flex flex-column border-2 border-end px-2 py-1 hover-effect flex-fill">
                             <span className="small">Giriş</span>
-                            <input type="search" placeholder="Tarih Seç" className="border-0 bg-transparent form-control-sm" />
+                            <input type="date" placeholder="Tarih Seç" className="border-0 bg-transparent form-control-sm" />
                         </div>
-                        <div className="d-flex flex-column border-2 px-2 py-1 hover-effect flex-fill">
+
+
+                        <div className="d-flex flex-column  border-2 border-end px-2 py-1 hover-effect flex-fill">
                             <span className="small">Çıkış</span>
-                            <input type="search" placeholder="Tarih Seç" className="border-0 bg-transparent form-control-sm" />
+                            <input type="date" placeholder="Tarih Seç" className="border-0 bg-transparent form-control-sm" />
                         </div>
-                        <div className="d-flex flex-column border-2 px-2 py-1 hover-effect flex-fill">
+
+
+                        <div className="d-flex flex-column px-2 py-1 hover-effect flex-fill">
                             <span className="small">Kişiler</span>
-                            <input type="search" placeholder="Kaç Kişi?" className="border-0 bg-transparent form-control-sm" />
+                            <div className='d-flex flex-row'>
+                                <input type="search" placeholder="Kaç Kişi?" className="border-0 bg-transparent form-control-sm" />
+                                <div className='search'>
+                                    <BiSearch />
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>

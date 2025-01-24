@@ -8,3 +8,15 @@
     background-color: #a09f9f82;
     border-radius: 100vh;
 }
+
+
+
+/* search */
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    padding: 100;
+}
