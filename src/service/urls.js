@@ -1,5 +1,6 @@
-const BASEURL = 'https://airbnb19.p.rapidapi.com/api/v1/searchPropertyByPlace';
+const BASEURL = 'http://localhost:3000/';
+const CATEGORIES = 'categories'
+const LISTING = 'listing'
 
 
-
-export { BASEURL }
+export { BASEURL, CATEGORIES, LISTING }
