@@ -4,6 +4,9 @@ import { LISTING } from "../../service/urls";
 
 
 const getList = createAsyncThunk('list/getList', async (params) => {
+
+
+
     try {
         const responce = await getRequest(LISTING, params)
         console.log('Datas from API:', responce)
