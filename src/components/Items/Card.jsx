@@ -12,7 +12,7 @@ const AirbnbCard = ({ item }) => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false, // Kaydırma oklarını gizle
+        arrows: false,
     };
 
     return (
@@ -22,7 +22,7 @@ const AirbnbCard = ({ item }) => {
             <Slider {...settings}>
                 {item.images.map((image, index) => (
                     <div key={index}>
-                        <img src={image} alt={`Accommodation ${index}`} style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+                        <img src={image} alt={`Accommodation ${index}`} style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '12px' }} />
                     </div>
                 ))}
             </Slider>
