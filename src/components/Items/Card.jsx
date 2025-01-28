@@ -19,8 +19,12 @@ const AirbnbCard = ({ item }) => {
         arrows: false,
     };
 
+    const handleClick = () => {
+        navigate(`/details/${item.id}`, { state: { item } })
+    }
+
     return (
-        <div className="shadow-sm border-0 custom-hover" style={{ width: '18rem', borderRadius: '12px', overflow: 'hidden' }}>
+        <div onClick={handleClick} className="shadow-sm border-0 custom-hover" style={{ width: '18rem', borderRadius: '12px', overflow: 'hidden' }}>
 
             {/* Slider */}
             <Slider {...settings}>
