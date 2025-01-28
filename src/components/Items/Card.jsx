@@ -2,10 +2,14 @@ import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Card as BootstrapCard, Badge } from 'react-bootstrap';
-import { Heart } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+
+
 
 const AirbnbCard = ({ item }) => {
+
+    const navigate = useNavigate()
+
     const settings = {
         dots: false,
         infinite: true,
@@ -16,7 +20,7 @@ const AirbnbCard = ({ item }) => {
     };
 
     return (
-        <div className="shadow-sm border-0" style={{ width: '18rem', borderRadius: '12px', overflow: 'hidden' }}>
+        <div className="shadow-sm border-0 custom-hover" style={{ width: '18rem', borderRadius: '12px', overflow: 'hidden' }}>
 
             {/* Slider */}
             <Slider {...settings}>
