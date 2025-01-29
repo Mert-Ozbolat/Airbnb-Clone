@@ -1,10 +1,33 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { setPrice, setCheckIn, setCheckOut } from "../../store/slice/bookingSlice";
 
 const Reservation = ({ item }) => {
+
+
+    const dispatch = useDispatch();
+
+    const pricePerNight = useSelector((state) => state.booking.pricePerNight);
+    const checkIn = useSelector((state) => state.booking.checkIn);
+    const checkOut = useSelector((state) => state.booking.checkOut);
+    const nights = useSelector((state) => state.booking.nights);
+
+
+
+    const totalPrice = pricePerNight * nights;
+
+
+    useEffect(() => {
+        dispatch(setPrice(item.price))
+    }, [item.price, dispatch])
+
+
+
+
+
     return (
         <div className="reservation-container">
-            <h2 className="price">{item.price}$<span className="night-text"> /gece</span></h2>
+            <h2 className="price">{pricePerNight}$<span className="night-text"> /gece</span></h2>
 
             <div className="details-box">
                 <div className="details-header">
@@ -12,8 +35,16 @@ const Reservation = ({ item }) => {
                     <span>ÇIKIŞ</span>
                 </div>
                 <div className="dates">
-                    <span>05.02.2025</span>
-                    <span>10.02.2025</span>
+                    <input
+                        type="date"
+                        value={checkIn || ""}
+                        onChange={(e) => dispatch(setCheckIn(e.target.value))}
+                    />
+                    <input
+                        type="date"
+                        value={checkOut || ""}
+                        onChange={(e) => dispatch(setCheckOut(e.target.value))}
+                    />
                 </div>
                 <div className="guest-selector">
                     <label>MİSAFİR SAYISI</label>
@@ -28,8 +59,8 @@ const Reservation = ({ item }) => {
 
             <div className="pricing">
                 <div className="price-item">
-                    <span>10.729 ₺ x 5 gece</span>
-                    <span>53.646 ₺</span>
+                    <span>{pricePerNight} ₺ x {nights} gece</span>
+                    <span>{totalPrice} ₺</span>
                 </div>
                 <div className="price-item">
                     <span className="link">Temizlik ücreti</span>
@@ -42,7 +73,7 @@ const Reservation = ({ item }) => {
                 <hr />
                 <div className="total-price">
                     <span>Vergiler hariç toplam</span>
-                    <span>64.845 ₺</span>
+                    <span>{totalPrice + 536 + 10663} ₺</span>
                 </div>
             </div>
 
