@@ -3,7 +3,7 @@ import { getRequest } from "../../service/verb";
 import { LISTING } from "../../service/urls";
 
 
-const getList = createAsyncThunk('list/getList', async (params) => {
+const getSearch = createAsyncThunk('search/searchItems', async (params) => {
     try {
         const responce = await getRequest(LISTING, params)
         console.log('Datas from API:', responce)
@@ -13,4 +13,4 @@ const getList = createAsyncThunk('list/getList', async (params) => {
     }
 })
 
-export default getList
+export default getSearch

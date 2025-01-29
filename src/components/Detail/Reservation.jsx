@@ -59,21 +59,17 @@ const Reservation = ({ item }) => {
 
             <div className="pricing">
                 <div className="price-item">
-                    <span>{pricePerNight} ₺ x {nights} gece</span>
-                    <span>{totalPrice} ₺</span>
-                </div>
-                <div className="price-item">
-                    <span className="link">Temizlik ücreti</span>
-                    <span>536 ₺</span>
+                    <span>{pricePerNight} $ x {nights} gece</span>
+                    <span>{totalPrice} $</span>
                 </div>
                 <div className="price-item">
                     <span className="link">Airbnb hizmet bedeli</span>
-                    <span>10.663 ₺</span>
+                    <span>100 $</span>
                 </div>
                 <hr />
                 <div className="total-price">
                     <span>Vergiler hariç toplam</span>
-                    <span>{totalPrice + 536 + 10663} ₺</span>
+                    <span>{totalPrice + 100} $</span>
                 </div>
             </div>
 

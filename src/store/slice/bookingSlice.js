@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     pricePerNight: 0,
-    checkIn: null,
+    checkIn: new Date().toISOString().split("T")[0],
     checkOut: null,
     nights: 1
 }
@@ -27,12 +27,17 @@ const bookingSlice = createSlice({
 })
 
 const calculateNights = (checkIn, checkOut) => {
-    const startDate = new Date(checkIn);
-    const endDate = new Date(checkOut)
+    if (!checkIn || !checkOut) return 1;
 
-    const diff = Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24))
-    return diff > 0 ? diff : 1
-}
+    const startDate = new Date(checkIn);
+    const endDate = new Date(checkOut);
+
+    if (isNaN(startDate) || isNaN(endDate)) return 1;
+
+    const diff = Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24));
+    return diff > 0 ? diff : 1;
+};
+
 
 export const { setPrice, setCheckIn, setCheckOut } = bookingSlice.actions;
 export default bookingSlice.reducer;
