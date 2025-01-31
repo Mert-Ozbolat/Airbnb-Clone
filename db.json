@@ -2,23 +2,28 @@
     "categories": [
         {
             "id": 1,
-            "name": "Apartment"
+            "name": "Apartment",
+            "images": "apartment.png"
         },
         {
             "id": 2,
-            "name": "Villa"
+            "name": "Villa",
+            "images": "villa.png"
         },
         {
             "id": 3,
-            "name": "Cabin"
+            "name": "Cabin",
+            "images": "cabin.png"
         },
         {
             "id": 4,
-            "name": "Cottage"
+            "name": "Cottage",
+            "images": "wooden-house.png"
         },
         {
             "id": 5,
-            "name": "Loft"
+            "name": "Loft",
+            "images": "loft.png"
         }
     ],
     "listings": [
