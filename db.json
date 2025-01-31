@@ -24,6 +24,51 @@
             "id": 5,
             "name": "Loft",
             "images": "loft.png"
+        },
+        {
+            "id": 6,
+            "name": "Bungalow",
+            "images": "bungalow.png"
+        },
+        {
+            "id": 7,
+            "name": "Penthouse",
+            "images": "penthouse.png"
+        },
+        {
+            "id": 8,
+            "name": "Farmhouse",
+            "images": "farmhouse.png"
+        },
+        {
+            "id": 9,
+            "name": "Treehouse",
+            "images": "treehouse.png"
+        },
+        {
+            "id": 10,
+            "name": "Studio",
+            "images": "studio.png"
+        },
+        {
+            "id": 11,
+            "name": "Houseboat",
+            "images": "houseboat.png"
+        },
+        {
+            "id": 12,
+            "name": "Castle",
+            "images": "castle.png"
+        },
+        {
+            "id": 13,
+            "name": "Dome House",
+            "images": "dome-house.png"
+        },
+        {
+            "id": 14,
+            "name": "Container Home",
+            "images": "container-home.png"
         }
     ],
     "listings": [
