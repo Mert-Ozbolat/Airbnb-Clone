@@ -14,7 +14,8 @@ const Accommodations = () => {
         dispatch(getList());
     }, [dispatch]);
 
-    const filteredHomes = selectedCategory ? list.filter(item.category === selectedCategory) : list
+    const filteredHomes = selectedCategory ? list.filter(item => item.categoryId === selectedCategory.id) : list;
+
 
     return (
         <div className="container mt-5">
