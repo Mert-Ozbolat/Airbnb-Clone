@@ -1,18 +1,20 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import getList from '../../store/action/getList'; // API verilerini alacak action
+import getList from '../../store/action/getList';
 import Loader from '../Loader';
-import Card from './Card'; // Kart bileşenini import ediyoruz
+import Card from './Card';
 
 const Accommodations = () => {
     const dispatch = useDispatch();
+
     const { list, isLoading } = useSelector(state => state.listing);
+    const { selectedCategory } = useSelector(state => state.category);
 
     useEffect(() => {
-        dispatch(getList());  // getList action'ını tetikleyerek veriyi alıyoruz
+        dispatch(getList());
     }, [dispatch]);
 
-    console.log('Veriler:', list);
+    const filteredHomes = selectedCategory ? list.filter(item.category === selectedCategory) : list
 
     return (
         <div className="container mt-5">
@@ -20,8 +22,8 @@ const Accommodations = () => {
                 <Loader />
             ) : (
                 <div className="row">
-                    {list && list.length > 0 ? (
-                        list.map((item, index) => (
+                    {filteredHomes && filteredHomes.length > 0 ? (
+                        filteredHomes.map((item, index) => (
                             <div key={index} className="col-md-2 mb-4 mx-5 container">
                                 <Card item={item} />
                             </div>
