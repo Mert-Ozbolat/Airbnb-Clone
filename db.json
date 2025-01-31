@@ -125,7 +125,7 @@
             "id": 3,
             "name": "Rustic Cabin in the Woods",
             "description": "Escape the hustle and bustle in this rustic cabin surrounded by nature.",
-            "categoryId": 3,
+            "categoryId": 9,
             "location": "Aspen, Colorado, USA",
             "price": 200,
             "guestCapacity": 4,
@@ -149,7 +149,7 @@
             "id": 4,
             "name": "Charming Cottage by the Lake",
             "description": "A quaint cottage by the lake, perfect for a relaxing getaway.",
-            "categoryId": 4,
+            "categoryId": 8,
             "location": "Lake Como, Italy",
             "price": 250,
             "guestCapacity": 3,
@@ -234,11 +234,12 @@
                 "Garden"
             ],
             "images": [
-                "https://source.unsplash.com/featured/?villa,6",
-                "https://source.unsplash.com/featured/?villa,7",
-                "https://source.unsplash.com/featured/?villa,8",
-                "https://source.unsplash.com/featured/?villa,9",
-                "https://source.unsplash.com/featured/?villa,10"
+                "https://a0.muscache.com/im/pictures/miso/Hosting-874441254790402808/original/ed01ee2e-2ef2-460e-82cf-f9a2f93d2c00.jpeg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-874441254790402808/original/5e5a05b1-4821-42c5-b416-2af1b6a3b5a2.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-874441254790402808/original/37bedb8c-9551-4263-ac80-e7e7364f5e1e.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-874441254790402808/original/37bedb8c-9551-4263-ac80-e7e7364f5e1e.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-874441254790402808/original/a5713b61-7052-402e-a6d4-c80a4e2441f0.jpeg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-874441254790402808/original/b37dd5b4-419e-4ef3-91a5-a5331ad9315c.jpeg?im_w=1200&im_format=avif"
             ]
         },
         {
@@ -257,11 +258,11 @@
                 "Outdoor Seating"
             ],
             "images": [
-                "https://source.unsplash.com/featured/?cabin,6",
-                "https://source.unsplash.com/featured/?cabin,7",
-                "https://source.unsplash.com/featured/?cabin,8",
-                "https://source.unsplash.com/featured/?cabin,9",
-                "https://source.unsplash.com/featured/?cabin,10"
+                "https://a0.muscache.com/im/pictures/miso/Hosting-866725685395003244/original/01d125c4-1e2f-4d4d-ae8a-ae72d8884270.jpeg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-866725685395003244/original/33fdbacd-5f9c-4f8b-be25-b8024b0504d6.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-866725685395003244/original/490476c4-49b2-424b-82f0-2ed09c7c2434.jpeg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-866725685395003244/original/36c1a304-53ef-4dd8-b985-f34d00ba7c75.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-866725685395003244/original/b8f4d613-b441-4590-8a1c-39d597c01db3.jpeg?im_w=720&im_format=avif"
             ]
         },
         {
@@ -281,11 +282,11 @@
                 "Fireplace"
             ],
             "images": [
-                "https://source.unsplash.com/featured/?cottage,6",
-                "https://source.unsplash.com/featured/?cottage,7",
-                "https://source.unsplash.com/featured/?cottage,8",
-                "https://source.unsplash.com/featured/?cottage,9",
-                "https://source.unsplash.com/featured/?cottage,10"
+                "https://a0.muscache.com/im/pictures/miso/Hosting-43935645/original/a33fc4cd-a946-4919-bca1-bff19626531a.jpeg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-43935645/original/89dd17c3-1525-4a0b-ad4c-ecf4ac038191.jpeg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-43935645/original/16c5b751-950a-4420-82e3-569ac9fc9547.jpeg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-43935645/original/04380444-f842-46bd-bce2-3b9cfc1be0f5.jpeg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-43935645/original/73b88e44-b352-445d-bd59-50737b85529d.jpeg?im_w=720&im_format=avif"
             ]
         },
         {
@@ -304,11 +305,11 @@
                 "Rooftop Access"
             ],
             "images": [
-                "https://source.unsplash.com/featured/?loft,6",
-                "https://source.unsplash.com/featured/?loft,7",
-                "https://source.unsplash.com/featured/?loft,8",
-                "https://source.unsplash.com/featured/?loft,9",
-                "https://source.unsplash.com/featured/?loft,10"
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/474584772.jpg?k=5adc07c634cce1586ea94bdeaa30cee5ad14be49fc0129629c219a2859a3784a&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/474584849.jpg?k=554a4ce69218c64894170a5cb4162ad31a019ddf14ea908caaf99ac79aefc2cd&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/474584833.jpg?k=a2b15db10c626c36e997c57b950d4322db54ab89a490545fb28ac3e588cb9d50&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/474584657.jpg?k=8bfe21133a1106675e0956164e428d92de3a292800d6f358d0f5e386ac3d22d9&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/474584779.jpg?k=3fab953a4ed1d97142ea2bd84f9f72759ffe2a605a81e40be0fea06680928c1b&o=&hp=1"
             ]
         },
         {
@@ -327,11 +328,11 @@
                 "Balcony"
             ],
             "images": [
-                "https://source.unsplash.com/featured/?apartment,11",
-                "https://source.unsplash.com/featured/?apartment,12",
-                "https://source.unsplash.com/featured/?apartment,13",
-                "https://source.unsplash.com/featured/?apartment,14",
-                "https://source.unsplash.com/featured/?apartment,15"
+                "https://a0.muscache.com/im/pictures/miso/Hosting-907250178321746077/original/a01b08d1-5b3e-46b0-9ce1-4bb4419c96f8.jpeg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-907250178321746077/original/fc719e29-10a1-42e0-a498-7a21a8e70150.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-907250178321746077/original/b368eb35-f028-45e7-bf29-37c4b7317cc2.jpeg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-907250178321746077/original/5efd4dc7-0264-46ae-8407-590ab092806e.jpeg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-907250178321746077/original/cbcd4392-1478-4a69-8893-50beff5056b3.jpeg?im_w=720&im_format=avif"
             ]
         },
         {
@@ -352,11 +353,112 @@
                 "Garden"
             ],
             "images": [
-                "https://source.unsplash.com/featured/?villa,11",
-                "https://source.unsplash.com/featured/?villa,12",
-                "https://source.unsplash.com/featured/?villa,13",
-                "https://source.unsplash.com/featured/?villa,14",
-                "https://source.unsplash.com/featured/?villa,15"
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/530779675.jpg?k=75e86ffbe700ef010f1514745b6ff3c46c4b048f2121a76edbb0546f1e8b8038&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/530779665.jpg?k=9f2ea66370607697c40204dbac653c14d3d05c9d51f1fcd25ea6360838efc337&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/531021107.jpg?k=6f684adba7a3d8e471bce65e96c434d7e58672161d5c66b8171c0d9718468d39&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/531021101.jpg?k=811c19b70a6bc7d976ff97c7a47767c71a2e1fb4776235d181a9aeb7c5ba64d2&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/531021086.jpg?k=6acb3fcc4057df2b36b30292ba736b6e8e7b3f0f84f1dbce78c430c4f555ff73&o=&hp=1"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Seaside Villa with Infinity Pool",
+            "description": "Relax and unwind in this luxurious villa with an infinity pool overlooking the ocean.",
+            "categoryId": 1,
+            "location": "Phuket, Thailand",
+            "price": 550,
+            "guestCapacity": 8,
+            "rating": 3,
+            "reviewCount": 100,
+            "amenities": [
+                "Pool",
+                "WiFi",
+                "Kitchen",
+                "Parking",
+                "Garden"
+            ],
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1301275475588154981/original/6d0bd1ae-7444-4cb7-9b87-2debae43b9d4.jpeg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1301275475588154981/original/9632a9b8-8d30-41e0-b169-7c1784fc0037.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1301275475588154981/original/74283ce8-2cbb-4dc8-a2ed-dbb2455bf4d6.jpeg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1301275475588154981/original/cad3d453-593c-44c9-acb0-189f7d450f84.jpeg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/miso/Hosting-1301275475588154981/original/3dc870e0-0430-4d87-98c5-289238627363.jpeg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Seaside Villa with Infinity Pool",
+            "description": "We offer a clean and modern 1 bedroom apartment at Regalia Residence, equipped with high-speed internet, a gym and a breathtaking view of the city with KLCC twin tower from the rooftop swimming pool.",
+            "categoryId": 1,
+            "location": "Kuala Lumpur",
+            "price": 550,
+            "guestCapacity": 8,
+            "rating": 1,
+            "reviewCount": 100,
+            "amenities": [
+                "Pool",
+                "WiFi",
+                "Kitchen",
+                "Parking",
+                "Garden"
+            ],
+            "images": [
+                "https://a0.muscache.com/im/pictures/miso/Hosting-37438876/original/0b5816c0-f89c-470c-82ed-7304d68e06ff.png?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/fae11db9-b821-428f-9edc-5386455a5889.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/f7dea6c6-25bb-42fe-ba9f-0f91db6124f2.jpg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/c5c69d2d-c99d-4964-bc13-fe5737e9382d.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/d61dea9f-6262-4b26-ba69-edb92fe2b5a3.jpg?im_w=720&im_format=avif"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Santum Nature: Suite #1 of Villa De Leyva",
+            "description": "A paradise of luxury and exclusivity just 30 minutes from the center of Villa de Leyva. Where excellence in service, comfort, and elegance combine to create a romantic and unforgettable experience. Nature and art merge into a perfect dance, designed to fall in love, where good taste and comfort create the perfect atmosphere. Nature becomes poetry, peace and rest are a melody that envelops you and makes you feel in harmony with everything around you.",
+            "categoryId": 13,
+            "location": "Villa de Leyva, Boyacá, Colombia",
+            "price": 550,
+            "guestCapacity": 8,
+            "rating": 5,
+            "reviewCount": 100,
+            "amenities": [
+                "Pool",
+                "WiFi",
+                "Kitchen",
+                "Parking",
+                "Garden"
+            ],
+            "images": [
+                "https://a0.muscache.com/im/pictures/72dd3f65-63da-4a3d-b64f-f7139edac838.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/2ffe5e77-97e6-4168-beb8-a4836b9432d9.jpg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/339d41db-ec19-4f0a-a456-4a1f9daf6680.jpg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/339d41db-ec19-4f0a-a456-4a1f9daf6680.jpg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/3eb8ff22-1e25-453c-bbef-df5e036f26c0.jpg?im_w=1200&im_format=avif"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Luxury Penthouse in Downtown Los Angeles",
+            "description": "Experience breathtaking views from this modern and luxurious penthouse in the heart of downtown LA. Featuring floor-to-ceiling windows, high-end amenities, and a rooftop pool, this is the perfect stay for business travelers and vacationers alike.",
+            "categoryId": 7,
+            "location": "Los Angeles, California, USA",
+            "price": 750,
+            "guestCapacity": 4,
+            "rating": 4.9,
+            "reviewCount": 85,
+            "amenities": [
+                "Pool",
+                "WiFi",
+                "Kitchen",
+                "Gym",
+                "Parking",
+                "Rooftop Terrace"
+            ],
+            "images": [
+                "https://a0.muscache.com/im/pictures/c1598495-a736-4336-8ba6-6dd600f1903c.jpg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/2b4030b0-a591-43e6-84af-9bdf1e6ec82b.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/12e4b1e3-5902-4035-9c4d-d92411df67a0.jpg?im_w=720&im_format=avif",
+                "https://a0.muscache.com/im/pictures/b5457eb3-7b0f-4997-a93b-bf5f548b2f66.jpg?im_w=1200&im_format=avif",
+                "https://a0.muscache.com/im/pictures/29ed7551-4072-45d8-ae55-845286fac8e3.jpg?im_w=720&im_format=avif"
             ]
         }
     ]

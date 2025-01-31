@@ -2,22 +2,20 @@ import React, { useState } from 'react'
 import { CgProfile } from 'react-icons/cg'
 import { FiMenu } from 'react-icons/fi'
 import { GrLanguage } from 'react-icons/gr'
-import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { SlEarphones } from 'react-icons/sl';
-import { BiSearch } from 'react-icons/bi';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
 
     const [startDate, setStartDate] = useState(new Date());
-
+    const navigation = useNavigate()
 
     return (
         <div className="container d-flex flex-column">
             <div className="d-flex justify-content-between align-items-center">
                 <div className="d-flex align-items-center">
                     <div className="me-3">
-                        <img src="logo.png" alt="logo" className="img-fluid" style={{ width: '100px', height: 'auto' }} />
+                        <img onClick={() => navigation.navigate('/')} src="logo.png" alt="logo" className="img-fluid" style={{ width: '100px', height: 'auto' }} />
                     </div>
                 </div>
 
